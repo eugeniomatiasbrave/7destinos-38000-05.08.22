@@ -1,0 +1,48 @@
+.logo {
+    height: 40px;
+}
+
+
+#prueba {
+    background-color: rgb(36, 167, 243);
+    height: 34.1rem;
+    width: auto;
+}
+
+
+.gradiente {
+    background-image: linear-gradient(to right, red , yellow , white);
+    }
+ 
+   
+
+    .logo2 {
+        transition: transform .3s; 
+        position: relative; left: 37.5rem; top: 12rem;
+        height: 6rem;   
+    }
+
+    .logo2:hover {
+        transform: scale(2); 
+    }
+
+    
+   .pto {
+        animation-name: animacion1;
+        animation-duration: 4s;
+        position: relative; left: 40rem; top: 23rem;
+        animation-iteration-count: infinite;
+        }
+
+    @keyframes animacion1 {
+
+        0% {left: 40rem; top: 23rem;}
+
+        33% {left: 60rem; top: 23rem; }
+
+        66% { left: 20rem ; top: 23rem;}
+
+        100% { left: 40rem ; top: 23rem;}
+
+    }   
+       
