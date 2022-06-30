@@ -63,3 +63,13 @@
     .gradiente {
         background-image: linear-gradient(to right, red , yellow , white);
         }
+
+    /*------------------------------------------ PAGINA NOSOTROS -----------------------*/ 
+
+        .col-4 {
+            background-color: rgb(141, 203, 238);
+            
+        }
+
+
+    
