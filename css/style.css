@@ -1,48 +1,162 @@
 
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
 
-
+/*----------------GENERAL---------------------------------*/
 
 .logo {
     height: 40px;
 }
 
- 
-   /*------------------------------------------ PAGINA INDEX -----------------------*/
-
-   #prueba {
+ .prueba {
     background-color: rgb(36, 167, 243);
-    height: 34.1rem;
-    width: auto;
+    height: 545px;
+
+ }
+
+/*------------------------------------------ PAGINA INDEX -----------------------*/
+
+
+
+
+@media (max-width: 425px) {
+
+    .blue {
+     background-color: rgb(36, 167, 243);
+     height: 545px;
+     }
+ 
+     .logo2 {
+         transition: transform .3s; 
+         position: relative; left: 170px; top: 230px;
+         height: 90px ;
+         width: 90px;
+     }
+ 
+     .logo2:hover {
+         transform: scale(2); 
+     }
+ 
+ 
+    .pto {
+         animation-name: animacion1;
+         animation-duration: 3s;
+         position: relative; left: 110px; top: 330px;
+         animation-iteration-count: infinite;
+         
+         }
+ 
+     @keyframes animacion1 {
+ 
+         0% {left: 110px; top: 330px;}
+ 
+         33% {left: 250px; top: 330px; }
+ 
+         66% { left: 20px ; top: 330px;}
+ 
+         100% { left: 110px; top: 330px;}
+     }   }
+
+
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+    .blue {
+     background-color: rgb(36, 167, 243);
+     height: 545px;
+     }
+ 
+     .logo2 {
+         transition: transform .3s; 
+         position: relative; left: 370px; top: 230px;
+         height: 90px ;
+         width: 90px;
+     }
+ 
+     .logo2:hover {
+         transform: scale(2); 
+     }
+ 
+ 
+    .pto {
+         animation-name: animacion1;
+         animation-duration: 4s;
+         position: relative; left: 310px; top: 310px;
+         animation-iteration-count: infinite;
+         }
+ 
+     @keyframes animacion1 {
+ 
+         0% {left: 310px; top: 310px;}
+ 
+         33% {left: 530px; top: 310px; }
+ 
+         66% { left: 130px ; top: 310px;}
+ 
+         100% { left: 310px; top: 310px;}
+     }   }
+
+
+@media (min-width: 768px) {
+
+   .blue {
+    background-color: rgb(36, 167, 243);
+    height: 545px;
     }
 
     .logo2 {
         transition: transform .3s; 
-        position: relative; left: 37.5rem; top: 12rem;
-        height: 6rem;   
+        position: relative; left: 630px; top: 230px;
+        height: 90px ;
+        width: 90px;
     }
 
     .logo2:hover {
         transform: scale(2); 
     }
 
+
    .pto {
         animation-name: animacion1;
         animation-duration: 4s;
-        position: relative; left: 40rem; top: 23rem;
+        position: relative; left: 570px; top: 310px;
         animation-iteration-count: infinite;
         }
 
     @keyframes animacion1 {
 
-        0% {left: 40rem; top: 23rem;}
+        0% {left: 570px; top: 310px;}
 
-        33% {left: 60rem; top: 23rem; }
+        33% {left: 930px; top: 310px; }
 
-        66% { left: 20rem ; top: 23rem;}
+        66% { left: 230px ; top: 310px;}
 
-        100% { left: 40rem ; top: 23rem;}
-    }   
+        100% { left: 570px; top: 310px;}
+    }   }
+
+    /*
+    
+@media (max-width: 425px) {
        
+    .blue {
+        background-color: rgb(36, 167, 243);
+        height: 545px;
+        }
+   
+       .logo2{ 
+        transition: transform .3s; 
+        position: relative; left: 20px; right: 20px;
+       }
+
+    .logo2:hover {
+       transform: scale(1.5); 
+       }
+}
+*/
 
 /*------------------------------------------ PAGINA EXPERIENCIAS -----------------------*/
 
@@ -64,12 +178,21 @@
         background-image: linear-gradient(to right, red , yellow , white);
         }
 
-    /*------------------------------------------ PAGINA NOSOTROS -----------------------*/ 
+    /*------------------------------------------ PAGINA 7DESTINOS -----------------------*/ 
 
-        .col-4 {
-            background-color: rgb(141, 203, 238);
-            
+       
+        
+        .alert{
+           margin-top: 15px;
+           margin-left: -12px; 
+           height: 80px;
         }
 
+        #linea {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+    
 
     
