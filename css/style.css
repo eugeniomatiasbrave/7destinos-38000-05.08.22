@@ -2,28 +2,28 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 
 /*----------------GENERAL---------------------------------*/
 
-.logo {
+   .logo {
     height: 40px;
-}
+    }
 
- .prueba {
+    .prueba {
     background-color: rgb(36, 167, 243);
     height: 545px;
+    }
 
- }
+    #bo {
+    background-color:  rgb(36, 167, 243);
+    border: none;
+    }
 
 /*------------------------------------------ PAGINA INDEX -----------------------*/
 
-
-
-
-@media (max-width: 425px) {
+    @media (max-width: 425px) {
 
     .blue {
      background-color: rgb(36, 167, 243);
@@ -41,71 +41,57 @@
          transform: scale(2); 
      }
  
- 
     .pto {
          animation-name: animacion1;
          animation-duration: 3s;
          position: relative; left: 110px; top: 330px;
-         animation-iteration-count: infinite;
-         
+         animation-iteration-count: infinite;  
          }
  
      @keyframes animacion1 {
- 
          0% {left: 110px; top: 330px;}
- 
          33% {left: 250px; top: 330px; }
- 
          66% { left: 20px ; top: 330px;}
- 
          100% { left: 110px; top: 330px;}
      }   }
 
+    @media (min-width: 426px) and (max-width: 767px) {
 
-
-@media (min-width: 426px) and (max-width: 767px) {
-
-    .blue {
-     background-color: rgb(36, 167, 243);
-     height: 545px;
-     }
+        .blue {
+         background-color: rgb(36, 167, 243);
+         height: 545px;
+         }
  
-     .logo2 {
+        .logo2 {
          transition: transform .3s; 
          position: relative; left: 370px; top: 230px;
          height: 90px ;
          width: 90px;
-     }
+        }
  
-     .logo2:hover {
+        .logo2:hover {
          transform: scale(2); 
-     }
- 
+        }
  
     .pto {
          animation-name: animacion1;
          animation-duration: 4s;
-         position: relative; left: 310px; top: 310px;
+         position: relative; left: 310px; top: 330px;
          animation-iteration-count: infinite;
          }
  
      @keyframes animacion1 {
- 
-         0% {left: 310px; top: 310px;}
- 
-         33% {left: 530px; top: 310px; }
- 
-         66% { left: 130px ; top: 310px;}
- 
-         100% { left: 310px; top: 310px;}
-     }   }
+         0% {left: 310px; top: 330px;}
+         33% {left: 530px; top: 330px; }
+         66% { left: 130px ; top: 330px;}
+         100% { left: 310px; top: 330px;}
+         }   }
 
-
-@media (min-width: 768px) {
+    @media (min-width: 768px) {
 
    .blue {
-    background-color: rgb(36, 167, 243);
-    height: 545px;
+        background-color: rgb(36, 167, 243);
+        height: 545px;
     }
 
     .logo2 {
@@ -119,58 +105,26 @@
         transform: scale(2); 
     }
 
-
    .pto {
         animation-name: animacion1;
         animation-duration: 4s;
-        position: relative; left: 570px; top: 310px;
+        position: relative; left: 570px; top: 330px;
         animation-iteration-count: infinite;
         }
 
     @keyframes animacion1 {
-
-        0% {left: 570px; top: 310px;}
-
-        33% {left: 930px; top: 310px; }
-
-        66% { left: 230px ; top: 310px;}
-
-        100% { left: 570px; top: 310px;}
+        0% {left: 570px; top: 330px;}
+        33% {left: 930px; top: 330px; }
+        66% { left: 230px ; top: 330px;}
+        100% { left: 570px; top: 330px;}
     }   }
-
-    /*
-    
-@media (max-width: 425px) {
-       
-    .blue {
-        background-color: rgb(36, 167, 243);
-        height: 545px;
-        }
-   
-       .logo2{ 
-        transition: transform .3s; 
-        position: relative; left: 20px; right: 20px;
-       }
-
-    .logo2:hover {
-       transform: scale(1.5); 
-       }
-}
-*/
 
 /*------------------------------------------ PAGINA EXPERIENCIAS -----------------------*/
 
-
     #exp-galeria {
-        display: grid;
-        grid-template-columns: repeat( 3, 1fr);
-        gap: 15px;
-        margin: 0px 60px 0px 60px;
+    
+        margin: 0px 0px 20px 90px;
              }
-
-    #exp-galeria img {
-        width: 100%;             
-                 }
 
     /*------------------------------------------ PAGINA NOSOTROS -----------------------*/             
 
@@ -179,8 +133,6 @@
         }
 
     /*------------------------------------------ PAGINA 7DESTINOS -----------------------*/ 
-
-       
         
         .alert{
            margin-top: 15px;

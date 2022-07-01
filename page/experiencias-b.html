@@ -63,21 +63,56 @@
         </h3>
       </div>
 
-      
-         <div id="exp-galeria">  <!---------USO DE GRID ------>
-           <img src="../img/00-1-1024x612.png">  
-           <img src="../img/glaciar-2-800x533.jpg">
-           <img src="../img/Chaltén_Fitz Roy.jpg">
-           <img src="../img/cerro7colores-3.jpg">
-           <img src="../img/Cerro7colores-8.jpg">
-           <img src="../img/cerro7colores-2.png">
-           <img src="../img/7lagos.jpg">
-           <img src="../img/7lagos-2.png">
-           <img src="../img/7lagos-3.png ">
-           <img src="../img/iguazu-lancha.png">
-           <img src="../img/iguazu-pasarelas-2.png">
-           <img src="../img/iguazu-pasarelas-3.png">
-         </div>
+      <div class="container-xl" id="exp-galeria">
+
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/00-1-1024x612.png" width="100%"> 
+        </div>
+          <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/glaciar-2-800x533.jpg" width="100%">
+        </div>
+         <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/Chaltén_Fitz Roy.jpg" width="100%">
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/cerro7colores-3.jpg" width="100%"> 
+        </div>
+          <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/Cerro7colores-8.jpg" width="100%">
+        </div>
+         <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/cerro7colores-2.png" width="100%">
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/7lagos.jpg" width="100%"> 
+        </div>
+          <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/7lagos-2.png" width="100%">
+        </div>
+         <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/7lagos-3.png" width="100%">
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/iguazu-lancha.png" width="100%"> 
+        </div>
+          <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/iguazu-pasarelas-2.png" width="100%">
+        </div>
+         <div class="col-12 col-md-8 col-lg-4 mt-3">
+          <img src="../img/iguazu-pasarelas-3.png" width="100%">
+        </div>
+      </div>
+    </div>
         
 
       <div class="container-xl py-4 text-center">
@@ -95,7 +130,7 @@
           <div class="card-body">
             <h5 class="card-title">Albert, de Alemania</h5>
             <p class="card-text">Estuve en el cerro de los 7 colores. Según mis calculos subimos hasta los 2000 metros sobre el nivel del mar. No llegamos a la cima pero el exito es relativo, me considero un ganador.  </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" id="bo">Comentarios</a>
           </div>
         </div>
 
@@ -104,7 +139,7 @@
           <div class="card-body">
             <h5 class="card-title">Napoleón, de París</h5>
             <p class="card-text">Hice la excursión en barco al glaciar Perito Moreno. Me encanta navegar. La recomiendo.  </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" id="bo">Comentarios</a>
           </div>
         </div>
 
@@ -113,11 +148,40 @@
           <div class="card-body">
             <h5 class="card-title">José del partido de San Martin, Buenos Aires</h5>
             <p class="card-text">Hice la excursión de los Andes con unos amigos. Estuvo muy buena. NOs costo un poco por el frio pero valió la pena. Recomendación: hacerla en verano. Si o si es necesario saber andar a caballo. </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary" id="bo">Comentarios</a>
           </div>
         </div>
       </section>
     </div>
+
+    <hr id="linea">
+
+    <div class="container-md py-4 text-center">
+      <h3>
+        Subí y compartí tus fotos.
+        <small class="text-muted"> Tus destinos</small>
+      </h3>
+    </div>
+
+    <div class="container-md mb-5">
+    
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Dejanos tu correo</label>
+      <input type="email" class="form-control"  id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label" placeholder="Subí tus fotos y videos">Comparti tu Experiencia</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <div class="mb-4">
+      <label for="formFile" class="form-label" > Subí tus Archivos</label>
+      <input class="form-control"  type="file" id="formFile">
+    </div>
+
+    <button class="btn btn-primary btn-block mb-4 w-25 mb-4" id="bo"type="submit">Enviar</button>
+    <input class="btn btn-primary btn-block mb-4 w-25 mb-4" id="bo" type="reset" value="Reset">
+  </div>
 
 
       <footer class="bg-dark text-center text-white">  <!---------------inicio de footer------->
