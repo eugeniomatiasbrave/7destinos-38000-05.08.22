@@ -1,150 +1,160 @@
 
-*{
+   *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;  
 }
 
-/*----------------GENERAL---------------------------------*/
+/*---------------------------------------------GENERAL-------------------------------*/
 
-   .logo {
-    height: 40px;
-    }
+    .logo {
+       height: 40px;  }
 
     .prueba {
-    background-color: rgb(36, 167, 243);
-    height: 545px;
-    }
+        background-color: rgb(36, 167, 243);
+        height: 545px;   }
 
-    #bo {
-    background-color:  rgb(36, 167, 243);
-    border: none;
-    }
+     #bo {
+         background-color:  rgb(36, 167, 243);
+         border: none;   }
 
-/*------------------------------------------ PAGINA INDEX -----------------------*/
+/*------------------------------------------ PAGINA INDEX --------------------------*/
 
-    @media (max-width: 425px) {
+ @media (max-width: 425px) {
 
-    .blue {
-     background-color: rgb(36, 167, 243);
-     height: 545px;
-     }
+     .blue {
+         background-color: rgb(36, 167, 243);
+         height: 545px;  }
  
      .logo2 {
          transition: transform .3s; 
          position: relative; left: 170px; top: 230px;
          height: 90px ;
-         width: 90px;
-     }
+         width: 90px;    }
  
      .logo2:hover {
-         transform: scale(2); 
-     }
+         transform: scale(2);   }
  
-    .pto {
+     .pto {
          animation-name: animacion1;
          animation-duration: 3s;
          position: relative; left: 110px; top: 330px;
-         animation-iteration-count: infinite;  
-         }
+         animation-iteration-count: infinite;     }
  
-     @keyframes animacion1 {
+ @keyframes animacion1 {
          0% {left: 110px; top: 330px;}
          33% {left: 250px; top: 330px; }
          66% { left: 20px ; top: 330px;}
          100% { left: 110px; top: 330px;}
-     }   }
+         }   }
 
-    @media (min-width: 426px) and (max-width: 767px) {
+ @media (min-width: 426px) and (max-width: 767px) {
 
-        .blue {
+     .blue {
          background-color: rgb(36, 167, 243);
-         height: 545px;
-         }
+         height: 545px;  }
  
-        .logo2 {
+     .logo2 {
          transition: transform .3s; 
          position: relative; left: 370px; top: 230px;
          height: 90px ;
-         width: 90px;
-        }
+         width: 90px;   }
  
-        .logo2:hover {
-         transform: scale(2); 
-        }
+     .logo2:hover {
+         transform: scale(2);  }
  
-    .pto {
+     .pto {
          animation-name: animacion1;
          animation-duration: 4s;
          position: relative; left: 310px; top: 330px;
-         animation-iteration-count: infinite;
-         }
+         animation-iteration-count: infinite;   }
  
-     @keyframes animacion1 {
+ @keyframes animacion1 {
          0% {left: 310px; top: 330px;}
          33% {left: 530px; top: 330px; }
          66% { left: 130px ; top: 330px;}
          100% { left: 310px; top: 330px;}
          }   }
 
-    @media (min-width: 768px) {
+ @media (min-width: 768px) {
 
-   .blue {
-        background-color: rgb(36, 167, 243);
-        height: 545px;
-    }
+     .blue {
+         background-color: rgb(36, 167, 243);
+         height: 545px;    }
 
     .logo2 {
         transition: transform .3s; 
         position: relative; left: 630px; top: 230px;
         height: 90px ;
-        width: 90px;
-    }
+        width: 90px; }
 
     .logo2:hover {
-        transform: scale(2); 
-    }
+        transform: scale(2);   }
 
-   .pto {
+    .pto {
         animation-name: animacion1;
         animation-duration: 4s;
         position: relative; left: 570px; top: 330px;
-        animation-iteration-count: infinite;
-        }
+        animation-iteration-count: infinite;    }
 
     @keyframes animacion1 {
         0% {left: 570px; top: 330px;}
         33% {left: 930px; top: 330px; }
         66% { left: 230px ; top: 330px;}
         100% { left: 570px; top: 330px;}
-    }   }
+        }   }
+
+
+/*------------------------------------------ PAGINA 7DESTINOS --------------------------*/ 
+        
+    .alert{
+         margin-top: 15px;
+         margin-left: -12px; 
+         height: 80px;   }
+
+    #linea {
+        margin-top: 30px;
+        margin-bottom: 30px;   }
+
+    #titu-exp {
+        background-color: rgb(203, 211, 215);
+    }
+
+    
 
 /*------------------------------------------ PAGINA EXPERIENCIAS -----------------------*/
 
-    #exp-galeria {
-    
-        margin: 0px 0px 20px 90px;
-             }
+    #exp-galeria { 
+        margin: 0px 0px 20px 90px; }
 
-    /*------------------------------------------ PAGINA NOSOTROS -----------------------*/             
+    .rota {
+        transform: rotate(-10deg);
+            }
+    
+    .rota-1 {
+        transform: rotate(10deg);
+                }
+    .rota-2 {
+        transform: rotate(5deg);
+                    }
+    #m {
+        margin: 25px 0px 30px 60px;
+    }      
+    
+    .exp3 {
+        background-color: goldenrod;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        border-radius: 15px;  
+        padding: 8px;
+        margin: 0 10px;
+        text-decoration: none;  }
+
+/*------------------------------------------ PAGINA NOSOTROS ---------------------------*/             
 
     .gradiente {
-        background-image: linear-gradient(to right, red , yellow , white);
-        }
+        background-image: linear-gradient(to top, white, white, rgb(224, 187, 173) ,rgb(224, 187, 173));  }
 
-    /*------------------------------------------ PAGINA 7DESTINOS -----------------------*/ 
-        
-        .alert{
-           margin-top: 15px;
-           margin-left: -12px; 
-           height: 80px;
-        }
 
-        #linea {
-            margin-top: 30px;
-            margin-bottom: 30px;
-        }
 
-    
-
-    
+/*------------------------------------------ PAGINA CONTACTO ---------------------------*/    
