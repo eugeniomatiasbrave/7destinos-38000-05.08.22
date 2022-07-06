@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*-------------Uso de variables sass-----------*/
+.sass03 {
+  background-color: grey;
+  margin-bottom: -10px;
+  text-align: center;
+}
+.sass03 h2 {
+  font-size: xx-large;
+  color: rgb(36, 167, 243);
+  height: 50px;
+}
+
+#sass04 {
+  border-top: grey;
+}
+#sass04 form {
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+
+/*-------------Uso de Anidacion y variables sass--------*/
+.sass00 {
+  background-color: rgb(36, 167, 243);
+  text-align: center;
+}
+.sass00 h1 {
+  color: grey;
+}
+.sass00 h3 {
+  color: grey;
+}
+.sass00 h2 {
+  color: grey;
+}
+
+/*---------------Uso de & dentro de anidacion + variables---------------*/
+.sass01 {
+  background-color: rgb(36, 167, 243);
+}
+.sass01 .sass02 {
+  font-size: 50px;
+  color: grey;
+}/*# sourceMappingURL=main.css.map */

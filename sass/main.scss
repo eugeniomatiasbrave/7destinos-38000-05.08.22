@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#colorBase {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*-------------Uso de variables sass-----------*/
+
+$colorBase00:  grey;
+$colorBase01: rgb(36, 167, 243);
+
+
+
+.sass03 {
+   background-color: $colorBase00;
+   margin-bottom: -10px;
+   text-align: center;
+   
+   h2 {
+    font-size: xx-large;
+    color: $colorBase01;  
+    height: 50px;
+    
+   }
+}
+
+
+   #sass04{
+         border-top: $colorBase00;
+         
+    form {
+        color: $colorBase00;
+       
+    }
+}
+
+
+/*-------------Uso de Anidacion y variables sass--------*/
+
+.sass00 {
+    background-color: $colorBase01;
+    text-align: center;
+  
+
+    h1 {
+        color: $colorBase00;
+    }
+
+    h3 {
+        color: $colorBase00;
+    }
+
+    h2{
+        color: $colorBase00;
+    }
+    }
+
+/*---------------Uso de & dentro de anidacion + variables---------------*/
+
+.sass01 {
+        background-color: $colorBase01;  
+ 
+    & .sass02 {
+           font-size: 50px;
+           color: $colorBase00; 
+          }
+          }
+
