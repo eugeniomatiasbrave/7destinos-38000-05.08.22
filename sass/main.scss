@@ -16,18 +16,20 @@ $colorBase01: rgb(36, 167, 243);
 
 
 
+
 .sass03 {
    background-color: $colorBase00;
    margin-bottom: -10px;
    text-align: center;
+
    
    h2 {
     font-size: xx-large;
-    color: $colorBase01;  
-    height: 50px;
+    color: $colorBase01;
     
    }
 }
+
 
 
    #sass04{
@@ -46,9 +48,10 @@ $colorBase01: rgb(36, 167, 243);
     background-color: $colorBase01;
     text-align: center;
   
-
     h1 {
         color: $colorBase00;
+        margin: 20px;
+      
     }
 
     h3 {
