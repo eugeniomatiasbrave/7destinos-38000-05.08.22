@@ -1,172 +1,255 @@
-
-   *{
+* {
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
+
+
 
 /*---------------------------------------------GENERAL-------------------------------*/
 
-   
+#colorBase {
+    background-color: rgb(243, 241, 238); 
+    font-family: 'Roboto', sans-serif;
+}
 
-    .logo {
-       height: 40px;  }
+.logo {
+    height: 40px;
+}
 
-   
 
-     #bo {
-         background-color:  rgb(36, 167, 243);
-         border: none;   }
+
+#bo {
+    background-color: rgb(36, 167, 243);
+    border: none;
+}
 
 /*------------------------------------------ PAGINA INDEX --------------------------*/
 
- @media (max-width: 425px) {
+@media (max-width: 425px) {
 
-     .blue {
-        background-color:  rgb(36, 167, 243);
-         height: 545px;  }
- 
-     .logo2 {
-         transition: transform .3s; 
-         position: relative; left: 170px; top: 230px;
-         height: 90px ;
-         width: 90px;    }
- 
-     .logo2:hover {
-         transform: scale(2);   }
- 
-     .pto {
-         animation-name: animacion1;
-         animation-duration: 3s;
-         position: relative; left: 110px; top: 330px;
-         animation-iteration-count: infinite;     }
- 
- @keyframes animacion1 {
-         0% {left: 110px; top: 330px;}
-         33% {left: 250px; top: 330px; }
-         66% { left: 20px ; top: 330px;}
-         100% { left: 110px; top: 330px;}
-         }   }
-
- @media (min-width: 426px) and (max-width: 767px) {
-
-     .blue {
+    .blue {
         background-color: rgb(36, 167, 243);
-         height: 545px;  }
- 
-     .logo2 {
-         transition: transform .3s; 
-         position: relative; left: 370px; top: 230px;
-         height: 90px ;
-         width: 90px;   }
- 
-     .logo2:hover {
-         transform: scale(2);  }
- 
-     .pto {
-         animation-name: animacion1;
-         animation-duration: 4s;
-         position: relative; left: 310px; top: 330px;
-         animation-iteration-count: infinite;   }
- 
- @keyframes animacion1 {
-         0% {left: 310px; top: 330px;}
-         33% {left: 530px; top: 330px; }
-         66% { left: 130px ; top: 330px;}
-         100% { left: 310px; top: 330px;}
-         }   }
-
- @media (min-width: 768px) {
-
-     .blue {
-        background-color:  rgb(36, 167, 243);
         height: 545px;
-        
-     }
+    }
 
     .logo2 {
-        transition: transform .3s; 
-        position: relative; left: 630px; top: 230px;
-        height: 90px ;
-        width: 90px; }
+        transition: transform .3s;
+        position: relative;
+        left: 170px;
+        top: 230px;
+        height: 90px;
+        width: 90px;
+    }
 
     .logo2:hover {
-        transform: scale(2);   }
+        transform: scale(2);
+    }
+
+    .pto {
+        animation-name: animacion1;
+        animation-duration: 3s;
+        position: relative;
+        left: 110px;
+        top: 330px;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacion1 {
+        0% {
+            left: 110px;
+            top: 330px;
+        }
+
+        33% {
+            left: 250px;
+            top: 330px;
+        }
+
+        66% {
+            left: 20px;
+            top: 330px;
+        }
+
+        100% {
+            left: 110px;
+            top: 330px;
+        }
+    }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+    .blue {
+        background-color: rgb(36, 167, 243);
+        height: 545px;
+    }
+
+    .logo2 {
+        transition: transform .3s;
+        position: relative;
+        left: 370px;
+        top: 230px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .logo2:hover {
+        transform: scale(2);
+    }
 
     .pto {
         animation-name: animacion1;
         animation-duration: 4s;
-        position: relative; left: 570px; top: 330px;
-        animation-iteration-count: infinite;    }
-
-    @keyframes animacion1 {
-        0% {left: 570px; top: 330px;}
-        33% {left: 930px; top: 330px; }
-        66% { left: 230px ; top: 330px;}
-        100% { left: 570px; top: 330px;}
-        }   }
-
-
-/*------------------------------------------ PAGINA 7DESTINOS --------------------------*/ 
-        
-    .alert{
-         margin-top: 15px;
-         margin-left: -12px; 
-         height: 80px;   }
-
-    #linea {
-        margin-top: 30px;
-        margin-bottom: 30px;   }
-
-    #titu-exp {
-        margin-bottom: 30px;
+        position: relative;
+        left: 310px;
+        top: 330px;
+        animation-iteration-count: infinite;
     }
 
-    
+    @keyframes animacion1 {
+        0% {
+            left: 310px;
+            top: 330px;
+        }
+
+        33% {
+            left: 530px;
+            top: 330px;
+        }
+
+        66% {
+            left: 130px;
+            top: 330px;
+        }
+
+        100% {
+            left: 310px;
+            top: 330px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .blue {
+        background-color: rgb(36, 167, 243);
+        height: 545px;
+
+    }
+
+    .logo2 {
+        transition: transform .3s;
+        position: relative;
+        left: 630px;
+        top: 230px;
+        height: 90px;
+        width: 90px;
+    }
+
+    .logo2:hover {
+        transform: scale(2);
+    }
+
+    .pto {
+        animation-name: animacion1;
+        animation-duration: 4s;
+        position: relative;
+        left: 570px;
+        top: 330px;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes animacion1 {
+        0% {
+            left: 570px;
+            top: 330px;
+        }
+
+        33% {
+            left: 930px;
+            top: 330px;
+        }
+
+        66% {
+            left: 230px;
+            top: 330px;
+        }
+
+        100% {
+            left: 570px;
+            top: 330px;
+        }
+    }
+}
+
+
+/*------------------------------------------ PAGINA 7DESTINOS --------------------------*/
+
+.alert {
+    margin-top: 15px;
+    margin-left: -12px;
+    height: 80px;
+}
+
+#linea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#titu-exp {
+    margin-bottom: 30px;
+}
+
+
 
 /*------------------------------------------ PAGINA EXPERIENCIAS -----------------------*/
 
-    #exp-galeria { 
-        margin: 30px 0px 40px 0px; }
+#exp-galeria {
+    margin: 30px 0px 40px 0px;
+}
 
-    .rota {
-        transform: rotate(-10deg);
-            }
-    
-    .rota-1 {
-        transform: rotate(10deg);
-                }
-    .rota-2 {
-        transform: rotate(5deg);
-                    }
-    #m {
-        margin: 20px 0px 20px 0px;
-    }
+.rota {
+    transform: rotate(-10deg);
+}
 
-    #m-1  {
-        margin: 20px 0px 10px 0px;
-    }    
-    
-    .exp3 a {
-        background-color: goldenrod;
-        font-size: 20px;
-        font-family: 'Lato', sans-serif;
-        border-radius: 10px;  
-        padding: 8px;
-        margin: 0px 50px 50px 230px;
-        text-decoration: none;
-        color: beige;  
-    }
+.rota-1 {
+    transform: rotate(10deg);
+}
 
-    #bo:hover {
-        background-color: rgb(6, 118, 183);
-    }
+.rota-2 {
+    transform: rotate(5deg);
+}
 
-/*------------------------------------------ PAGINA NOSOTROS ---------------------------*/             
+#m {
+    margin: 20px 0px 20px 0px;
+}
 
-    .gradiente {
-        background-image: linear-gradient(to top, white, white, rgb(224, 187, 173) ,rgb(224, 187, 173));  }
+#m-1 {
+    margin: 20px 0px 10px 0px;
+}
+
+.exp3 a {
+    background-color: goldenrod;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0px 50px 50px 230px;
+    text-decoration: none;
+    color: beige;
+}
+
+#bo:hover {
+    background-color: rgb(6, 118, 183);
+}
+
+/*------------------------------------------ PAGINA NOSOTROS ---------------------------*/
+
+.gradiente {
+    background-image: linear-gradient(to top, white, white, rgb(224, 187, 173), rgb(224, 187, 173));
+}
 
 
 
-/*------------------------------------------ PAGINA CONTACTO ---------------------------*/    
+/*------------------------------------------ PAGINA CONTACTO ---------------------------*/
