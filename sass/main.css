@@ -108,4 +108,23 @@
 .get-2 {
   text-align: center;
   font-size: 35px;
+}
+
+/*---------------------------uso de @extend-------------------*/
+.exp3, .exp3-2 {
+  background-color: goldenrod;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 0px 50px 50px 230px;
+  text-decoration: none;
+  color: beige;
+}
+
+.exp3-2 {
+  /*--------------------clase reciclada----------*/
+  background-color: rgb(126, 123, 123);
+  margin: 10px 0px 0px 20px;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */

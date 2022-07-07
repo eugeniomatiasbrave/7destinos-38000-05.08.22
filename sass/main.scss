@@ -43,6 +43,7 @@ $colorBase01: rgb(36, 167, 243);
 .sass00 {
     background-color: $colorBase01;
     text-align: center;
+    
   
     h1 {
         color: $colorBase00;
@@ -51,6 +52,7 @@ $colorBase01: rgb(36, 167, 243);
 
     h3 {
         color: $colorBase00;
+        
     }
 
     h2{
@@ -146,6 +148,29 @@ $valor: (
      font-size:map-get($valor, tFuente);
     }
 
+    /*---------------------------uso de @extend-------------------*/
+
+    .exp3  {  
+        background-color: goldenrod; 
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        border-radius: 10px;
+        padding: 8px;
+        margin: 0px 50px 50px 230px;
+        text-decoration: none;
+        color: beige;
+    }
+
+    .exp3-2  {  /*--------------------clase reciclada----------*/
+        @extend .exp3  ;
+        background-color: rgb(126, 123, 123) ;
+        margin: 10px 0px 0px 20px;
+        border-radius: 5px;
+        
+    }
+                
+        
+    
 
 
      
