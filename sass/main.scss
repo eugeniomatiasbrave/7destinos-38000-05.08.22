@@ -15,22 +15,18 @@ $colorBase00:  grey;
 $colorBase01: rgb(36, 167, 243);
 
 
-
-
 .sass03 {
    background-color: $colorBase00;
    margin-bottom: -10px;
    text-align: center;
-
+   
    
    h2 {
     font-size: xx-large;
     color: $colorBase01;
-    
+   
    }
 }
-
-
 
    #sass04{
          border-top: $colorBase00;
@@ -50,8 +46,7 @@ $colorBase01: rgb(36, 167, 243);
   
     h1 {
         color: $colorBase00;
-        margin: 20px;
-      
+        margin: 0px;  
     }
 
     h3 {
@@ -67,10 +62,62 @@ $colorBase01: rgb(36, 167, 243);
 
 .sass01 {
         background-color: $colorBase01;  
+        
  
     & .sass02 {
            font-size: 50px;
-           color: $colorBase00; 
+           color: $colorBase00;
+          
           }
           }
+
+/*-------------------uso de operaciones----------------*/
+
+.sass06 {
+    background-color: $colorBase00;
+    display: inline-block;
+    width: 331px * 4;
+    height: 30px + 7px;
+
+    p {
+      font-size: 1.5rem;
+      text-align: center;    
+ }
+}
+
+/*-------------------uso de condicionales----------------*/
+
+   
+     .sass07 {
+        
+        h3 {
+            color: white;
+            background-color: white;
+        }
+     }  
+
+     $colorCondicional: mobil;
+     
+     
+       @if  $colorCondicional==mobil {
+
+        @media (max-width: 425px){
+            .sass07 {
+                h3 {
+                    color: black;
+                    background-color: yellow;
+                    text-align: center;
+                }
+            }
+
+        }}
+        
+        
+
+        
+
+
+
+
+
 

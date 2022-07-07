@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#colorBase {
+  font-family: "Roboto", sans-serif;
+}
+
 /*-------------Uso de variables sass-----------*/
 .sass03 {
   background-color: grey;
@@ -13,14 +17,12 @@
 .sass03 h2 {
   font-size: xx-large;
   color: rgb(36, 167, 243);
-  height: 50px;
 }
 
 #sass04 {
   border-top: grey;
 }
 #sass04 form {
-  font-family: Arial, Helvetica, sans-serif;
   color: grey;
 }
 
@@ -31,6 +33,7 @@
 }
 .sass00 h1 {
   color: grey;
+  margin: 0px;
 }
 .sass00 h3 {
   color: grey;
@@ -46,4 +49,30 @@
 .sass01 .sass02 {
   font-size: 50px;
   color: grey;
+}
+
+/*-------------------uso de operaciones----------------*/
+.sass06 {
+  background-color: grey;
+  display: inline-block;
+  width: 1324px;
+  height: 37px;
+}
+.sass06 p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*-------------------uso de condicionales----------------*/
+.sass07 h3 {
+  color: white;
+  background-color: white;
+}
+
+@media (max-width: 425px) {
+  .sass07 h3 {
+    color: black;
+    background-color: yellow;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
