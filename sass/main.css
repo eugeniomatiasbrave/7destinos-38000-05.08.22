@@ -54,7 +54,6 @@
 /*-------------------uso de operaciones----------------*/
 .sass06 {
   background-color: grey;
-  display: inline-block;
   width: 1324px;
   height: 37px;
 }
@@ -65,8 +64,8 @@
 
 /*-------------------uso de condicionales----------------*/
 .sass07 h3 {
-  color: white;
-  background-color: white;
+  color: rgb(243, 241, 238);
+  background-color: rgb(243, 241, 238);
 }
 
 @media (max-width: 425px) {
@@ -75,4 +74,38 @@
     background-color: yellow;
     text-align: center;
   }
+}
+/*---------------------------uso de map-------------------*/
+#borde--twitter {
+  border-color: rgb(109, 164, 237);
+}
+
+#borde--facebook {
+  border-color: rgb(22, 111, 229);
+}
+
+#borde--google {
+  border-color: rgb(237, 185, 109);
+}
+
+#borde--instagram {
+  border-color: rgb(200, 109, 237);
+}
+
+#borde--in {
+  border-color: rgb(213, 22, 226);
+}
+
+#borde--github {
+  border-color: rgb(79, 77, 79);
+}
+
+/*---------------------------uso de map get-------------------*/
+.get-1 {
+  background-color: rgb(178, 224, 239);
+}
+
+.get-2 {
+  text-align: center;
+  font-size: 35px;
 }/*# sourceMappingURL=main.css.map */

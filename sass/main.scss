@@ -75,15 +75,15 @@ $colorBase01: rgb(36, 167, 243);
 
 .sass06 {
     background-color: $colorBase00;
-    display: inline-block;
     width: 331px * 4;
     height: 30px + 7px;
 
     p {
-      font-size: 1.5rem;
-      text-align: center;    
+       font-size: 1.5rem;
+       text-align: center; 
  }
 }
+
 
 /*-------------------uso de condicionales----------------*/
 
@@ -91,13 +91,12 @@ $colorBase01: rgb(36, 167, 243);
      .sass07 {
         
         h3 {
-            color: white;
-            background-color: white;
+            color: rgb(243, 241, 238);
+            background-color: rgb(243, 241, 238);
         }
      }  
 
      $colorCondicional: mobil;
-     
      
        @if  $colorCondicional==mobil {
 
@@ -109,9 +108,47 @@ $colorBase01: rgb(36, 167, 243);
                     text-align: center;
                 }
             }
-
+            
         }}
-        
+
+    
+/*---------------------------uso de map-------------------*/
+  $colores-redes: (     
+    twitter: rgb(109, 164, 237) ,
+    facebook: rgb(22, 111, 229),
+    google: rgb(237, 185, 109),
+    instagram: rgb(200, 109, 237),
+    in:rgb(213, 22, 226) ,
+    github: rgb(79, 77, 79) ,
+);
+
+@each $red, $color in $colores-redes {
+#borde--#{$red} {
+border-color: $color;
+}
+}
+
+/*---------------------------uso de map get-------------------*/
+
+
+$valor: (
+   color: rgb(178, 224, 239),
+   centro: center,
+   tFuente: 35px,  
+   );
+
+   .get-1 {
+     background-color: map-get($valor, color);
+    }
+
+   .get-2 {
+     text-align: map-get($valor, centro);
+     font-size:map-get($valor, tFuente);
+    }
+
+
+
+     
         
 
         
