@@ -252,6 +252,11 @@
     background-image: linear-gradient(to top, white, white, rgb(224, 187, 173), rgb(224, 187, 173));
 }
 
+.gradiente h1 {
+    font-size: 2.3rem;
+    padding: 0px 40px 0px 40px;   
+}
+
 
 
 /*------------------------------------------ PAGINA CONTACTO ---------------------------*/
