@@ -28,13 +28,16 @@
 
 /*------------------------------------------ PAGINA INDEX --------------------------*/
 
+
+
 @media (max-width: 425px) {
 
     .blue {
         background-color: rgb(36, 167, 243);
-        height: 545px;
+        height: 577px;
     }
 
+    
     .logo2 {
         transition: transform .3s;
         position: relative;
@@ -84,20 +87,22 @@
 
     .blue {
         background-color: rgb(36, 167, 243);
-        height: 545px;
+        height: 577px;
     }
+
 
     .logo2 {
         transition: transform .3s;
         position: relative;
-        left: 370px;
-        top: 230px;
+        left: 270px;
+        top: 260px;
         height: 90px;
-        width: 90px;
+        width: 330px;
+        color: beige;
     }
 
     .logo2:hover {
-        transform: scale(2);
+        transform: scale(1.5);
     }
 
     .pto {
@@ -136,21 +141,22 @@
 
     .blue {
         background-color: rgb(36, 167, 243);
-        height: 545px;
-
+        height: 577px;
     }
 
     .logo2 {
+        
         transition: transform .3s;
         position: relative;
-        left: 630px;
-        top: 230px;
-        height: 90px;
-        width: 90px;
+        left: 540px;
+        top: 250px;
+        height: 0px;
+        width: 330px;
+        color: beige;
     }
 
     .logo2:hover {
-        transform: scale(2);
+        transform: scale(1.5);
     }
 
     .pto {
