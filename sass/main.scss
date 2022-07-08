@@ -168,6 +168,20 @@ $valor: (
         border-radius: 5px;
         
     }
+
+     /*---------------------------uso de mixin-------------------*/
+
+     @mixin exp3-2 {
+        background-color: rgb(126, 123, 123) ;
+        margin: 10px 0px 0px 20px;
+        border-radius: 5px;
+     }
+
+     .exp3--2 {    /*----muy feo el boton, se agregaron estilos para cumplir con la funcion mixin ------*/
+        @include exp3-2;
+        background-image: linear-gradient(to top, rgb(126, 123, 123), $colorBase01,  rgb(126, 123, 123));
+        border-color:  rgb(126, 123, 123);
+     }
                 
         
     
