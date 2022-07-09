@@ -17,179 +17,29 @@
     height: 40px;
 }
 
-
-
 #bo {
     background-color: rgb(36, 167, 243);
     border: none;
-    
-    
+      
 }
 
 /*------------------------------------------ PAGINA INDEX --------------------------*/
 
+.i-dx{
+    
+    text-align: center;
+    color: beige;
+    position: fixed;
+    top: 350px;
+    left: 550px;
+}
 
 
-@media (max-width: 425px) {
 
-    .blue {
-        background-color: rgb(36, 167, 243);
-        height: 577px;
-    }
 
     
-    .logo2 {
-        transition: transform .3s;
-        position: relative;
-        left: 170px;
-        top: 230px;
-        height: 90px;
-        width: 90px;
-    }
+    
 
-    .logo2:hover {
-        transform: scale(2);
-    }
-
-    .pto {
-        animation-name: animacion1;
-        animation-duration: 3s;
-        position: relative;
-        left: 110px;
-        top: 330px;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes animacion1 {
-        0% {
-            left: 110px;
-            top: 330px;
-        }
-
-        33% {
-            left: 250px;
-            top: 330px;
-        }
-
-        66% {
-            left: 20px;
-            top: 330px;
-        }
-
-        100% {
-            left: 110px;
-            top: 330px;
-        }
-    }
-}
-
-@media (min-width: 426px) and (max-width: 767px) {
-
-    .blue {
-        background-color: rgb(36, 167, 243);
-        height: 577px;
-    }
-
-
-    .logo2 {
-        transition: transform .3s;
-        position: relative;
-        left: 270px;
-        top: 260px;
-        height: 90px;
-        width: 330px;
-        color: beige;
-    }
-
-    .logo2:hover {
-        transform: scale(1.5);
-    }
-
-    .pto {
-        animation-name: animacion1;
-        animation-duration: 4s;
-        position: relative;
-        left: 310px;
-        top: 330px;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes animacion1 {
-        0% {
-            left: 310px;
-            top: 330px;
-        }
-
-        33% {
-            left: 530px;
-            top: 330px;
-        }
-
-        66% {
-            left: 130px;
-            top: 330px;
-        }
-
-        100% {
-            left: 310px;
-            top: 330px;
-        }
-    }
-}
-
-@media (min-width: 768px) {
-
-    .blue {
-        background-color: rgb(36, 167, 243);
-        height: 577px;
-    }
-
-    .logo2 {
-        
-        transition: transform .3s;
-        position: relative;
-        left: 540px;
-        top: 250px;
-        height: 0px;
-        width: 330px;
-        color: beige;
-    }
-
-    .logo2:hover {
-        transform: scale(1.5);
-    }
-
-    .pto {
-        animation-name: animacion1;
-        animation-duration: 4s;
-        position: relative;
-        left: 570px;
-        top: 330px;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes animacion1 {
-        0% {
-            left: 570px;
-            top: 330px;
-        }
-
-        33% {
-            left: 930px;
-            top: 330px;
-        }
-
-        66% {
-            left: 230px;
-            top: 330px;
-        }
-
-        100% {
-            left: 570px;
-            top: 330px;
-        }
-    }
-}
 
 
 /*------------------------------------------ PAGINA 7DESTINOS --------------------------*/
