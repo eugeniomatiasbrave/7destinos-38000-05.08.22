@@ -14,41 +14,44 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body id="colorBase">
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+  <nav class="navbar navbar-expand-lg mx-4" id="borde-nav-2"> 
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">
-        <img src="../img/7d-blaco-logo.png" class="logo" class="d-inline-block align-text-top" width="100%"></a>
+        <img src="../img/7D-logo-2.png" class="logo" class="d-inline-block align-text-top" width="100%"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        <ul class="navbar-nav  mx-auto my-4">
+            <li class="nav-item mx-4">
+                <a class="nav-link active fs-6 text" aria-current="page" href="../index.html"><strong>Home</strong></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./7destinos-b.html">7 Destinos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./experiencias-b.html">Experiencias</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./nosotros-b.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto-b.html">Contactos</a>
-              </li>  
-            </ul>       
 
-        <form class="d-flex" role="search">
+              <li class="nav-item mx-4">
+                <a class="nav-link active fs-6" href="./7destinos-b.html"><strong>Destinos</strong></a>
+              </li>
+
+              <li class="nav-item mx-4">
+                <a class="nav-link active fs-6" href="./experiencias-b.html"><strong>Experiencias</strong></a>
+              </li>
+
+              <li class="nav-item mx-4">
+                <a class="nav-link active fs-6" href="./nosotros-b.html"><strong>Nosotros</strong></a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active fs-6" href="./contacto-b.html"><strong>Contacto</strong></a>
+              </li>
+              
+            </ul>
+        <form class="d-flex" role="search" id="buscador">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-warning" type="submit">Search</button>
+          <button class="btn btn-primary" id="bo" type="submit">Search</button>
         </form>
       </div>
     </div>
-  </nav>
 
+</nav>
       <div>
         <img src="../img/portada-los-Glaciares.jpg" class="img-fluid" alt="imagenglaciares" width="100%">
       </div>
@@ -179,7 +182,7 @@
   </div>
 
 
-      <footer class="bg-dark text-center text-white">  <!---------------inicio de footer------->
+      <footer class="text-center text-white" id="color-fotter">  <!---------------inicio de footer------->
         <div class="container p-4 pb-0"> 
           <section class="mb-4"> 
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
