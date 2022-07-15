@@ -14,7 +14,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 </head>
 <body id="colorBase">
-  <nav class="navbar navbar-expand-lg mx-4 mb-3" id="borde-nav-2"> 
+
+  <div class="d-flex justify-content-end p-1 pe-5" id="bo">   
+    <img src="https://img.icons8.com/small/32/FFFFFF/whatsapp.png" height="33px"/>
+    <div class="d-inline-flex p-1 text-white ps-2">Para ventas 0800-111-7777</div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg mx-4" id="borde-nav-2"> 
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html">
         <img src="../img/7D-logo-2.png" class="logo" class="d-inline-block align-text-top" width="100%"></a>
@@ -44,8 +50,8 @@
               </li>
               
             </ul>
-        <form class="d-flex me-3" role="search" id="buscador">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex" role="search" id="buscador">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-primary" id="bo" type="submit">Search</button>
         </form>
       </div>
@@ -55,16 +61,16 @@
 
 <!--- nuevo carrusel-->
 
-<div id="carouselExampleInterval" class="carousel slide px-4" data-bs-ride="carousel">
-  <div class="carousel-inner">
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner px-4">
     <div class="carousel-item active" data-bs-interval="3000">
-      <img src="../img/portada-salinas-grandes.png" class="d-block w-100" alt="...">
+      <img src="../img/portada-salinas-00.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="3000">
-      <img src="../img/iguazu18.png" class="d-block w-100" alt="...">
+      <img src="../img/iguazu-00.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../img/7colores15.png" class="d-block w-100" alt="...">
+      <img src="../img/cerro-siete-colores-jujuy-00.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -78,41 +84,44 @@
 </div>  <!---fin nuevo carrusel-->
 
 
-      <div class="container-fluid py-4 text-center" id="titu-exp">
+      <div class="row py-4 text-center" id="titu-exp">
         <h1>Siete Experiencias naturales</h1><!--------------------------------optimizacion con h1-------->
         <h3><small class="text-muted">Siete destinos en Argentina imperdibles</small></h3>
       </div>
 
-
-        <div class="row d-flex justify-content-around mx-2 px-5">
-        <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+        <div class="row d-flex justify-content-around px-5">
+        <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
           <img src="../img/salinas-10.jpg" class="card-img-top mt-3" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Salinas Gande, Jujuy</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
+            <p class="card-text">Reservá con anticipación</p>
+            <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
+            <a href="#" class="btn btn-primary px-5" id="bo">Consultar disponibilidad</a>
           </div>
         </div>
-        <div class="card col-12 col-md-6" style="width: 42rem;">
+        <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-0">
+          <h1 class="card-title">Tour a Salinas Grandes y Purmamarca desde Salta</h1>
           <div class="card-body">
-            This is some text within a card body.
+            Descubra los pintorescos paisajes de Purmamarca y Salinas Grandes en Salta. Comience temprano para viajar a Salinas Grandes y disfrute del impresionante paisaje. Continúe hasta la Cuesta de Lipán y maravíllese con la ingeniería que permite a los vehículos ascender por la empinada montaña. En la encantadora ciudad de Purmamarca, su guía le mostrará los puntos más destacados del pueblo antes de dirigirse Humahuaca, situada cerca de las montañas multicolores, conocidas como la Serranía de Hornocal.
           </div>
         </div>
       </div>
         
         <hr id="linea">
 
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6" style="width: 42rem;">
+        <div class="row d-flex justify-content-around px-5">
+          <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-1">
             <div class="card-body">
-              This is some text within a card body.
+              <h1 class="card-title">San Martín de los Andes y los Siete Lagos desde Bariloche</h1>
+              <div class="card-body">
+                Realice el trayecto por la carretera de los Siete Lagos hasta San Martín de los Andes en esta excursión de día completo desde Bariloche. Escuche los comentarios informativos de su guía durante su viaje en autobús turístico que pasa por el lago Nahuel Huapi, el lago Lácar y los impresionantes Siete Lagos. Disfrute de una breve parada en Villa La Angostura y de unas horas de tiempo libre para explorar San Martín a su propio ritmo
+              </div>
             </div>
           </div>
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+          <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
             <img src="../img/7-lagos-bariloche.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Salinas Gande, Jujuy</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Reservá con anticipación</p>
+            <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
               <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
             </div>
           </div>
@@ -120,125 +129,142 @@
 
         <hr id="linea">
 
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
-            <img src="../img/los-glaciares1.png" class="card-img-top mt-3" alt="...">
+        <div class="row d-flex justify-content-around px-5">
+           <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
+                 <img src="../img/los-glaciares1.png" class="card-img-top mt-3" alt="...">
+                 <div class="card-body">
+                    <p class="card-text">Reservá con anticipación</p>
+                    <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
+                    <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
+                </div>
+           </div>
+         <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-0">
             <div class="card-body">
-              <h5 class="card-title">Glaciar Pto. Moreno, Santa cruz</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
+              <h1 class="card-title">Excursión de día completo al glaciar Perito Moreno con navegación</h1>
+              <div class="card-body">
+                Visitar el glaciar Perito Moreno en un solo día es fácil en esta visita guiada desde El Calafate. Una salida a primera hora de la mañana le ayudará a evitar las multitudes, así podrá pasear a lo largo de la pasarelas en frente del glaciar sin demasiadas intromisiones cuando llegue. A continuación, acérquese a unos 150 metros (490 pies) del glaciar en una excursión de navegación por la cara sur.
+              </div>
             </div>
-          </div>
-          <div class="card col-12 col-md-6" style="width: 42rem;">
+        </div>
+      </div>
+
+        <hr id="linea">
+         
+        <div class="row d-flex justify-content-around px-5">
+
+          <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-1">
             <div class="card-body">
-              This is some text within a card body.
-            </div>
+              <h1 class="card-title">Visita el Hermoso Pueblo de Purmamca y al Cerro de 7 Colores.</h1>
+              <div class="card-body">
+                 Recorrido en la Quebrada de Humahuaca (Patrimonio de la Humanidad). Visita a las Serranías del Hornocal. Visita el Famoso Pueblo de Humahuaca. 
+                Los Pasajeros tendrán la posibilidad de, ademas de visitar lugares de Gran Belleza y famosos a Nivel Mundial, podrán aprender, conocer y vivenciar muchísimos aspectos de la Cultura e Historia del Norte Argentino, aspectos n sumamente influenciados por la Cultura Inca y a su vez por el Legado de los Colonizadores Españoles, creando así una Mixtura unica e irreletible en el Mundo.
+              </div>
           </div>
         </div>
 
-
-        <hr id="linea">
-
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6" style="width: 42rem;">
-            <div class="card-body">
-              This is some text within a card body.
-            </div>
-          </div>
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+          <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
             <img src="../img/cerro-siete-colores-jujuy-529939.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Salinas Gande, Jujuy</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Reservá con anticipación</p>
+              <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
               <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
             </div>
           </div>
-        </div>
+      </div>
 
         <hr id="linea">
 
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+        <div class="row d-flex justify-content-around px-5">
+          <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
             <img src="../img/monte-fitroyjpg.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Salinas Gande, Jujuy</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Reservá con anticipación</p>
+              <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
               <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
             </div>
           </div>
-          <div class="card col-12 col-md-6" style="width: 42rem;">
+          <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-0">
             <div class="card-body">
-              This is some text within a card body.
-            </div>
+              <h1 class="card-title">El Chaltén desde El Calafate</h1>
+              <div class="card-body">
+                Disfrute de una visita "salvaje" a El Calafate con este día completo de senderismo en El Chaltén en el parque nacional Los Glaciares. Maravíllese ante los escarpados picos de los Andes y el lago Argentino mientras recorre la famosa ruta 40. Cuando llegue a El Chaltén, podrá disfrutar de una amplia gama de rutas de senderismo independientes o guiadas dentro de esta pintoresca zona. También se incluye un almuerzo para llevar para recargar energías en esta aventura.
+              </div>
           </div>
         </div>
+      </div>
+
 
         <hr id="linea">
 
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6" style="width: 42rem;">
+        <div class="row d-flex justify-content-around px-5">
+          <div class="card col-12 col-md-6 text-white my-1" style="width: 42rem;" id="bg-card-1">
             <div class="card-body">
-              This is some text within a card body.
-            </div>
+              <h1 class="card-title">Ruta del vino por Mendoza</h1>
+              <div class="card-body">
+                Mendoza es la región vinícola más grande de Argentina, famosa por sus vinos tintos Malbec y ubicada en las estribaciones de las montañas de los Andes. Este tour le permite visitar tres bodegas diferentes en un día, así como visitar una fábrica de aceite de oliva y disfrutar de un almuerzo de picnic en medio de los viñedos. En el camino, aprenda sobre el proceso de elaboración del vino y el efecto que la gran altitud tiene en las vides; probar una variedad de vinos, incluyendo Malbec, Cabernet Sauvignon y Chardonnay; y recoger consejos sobre la etiqueta de cata de vinos
+              </div>
           </div>
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+        </div>
+          <div class="card col-12 col-md-6 text-center my-1" style="width: 42rem;">
             <img src="../img/ruta-del-vino.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Ruta del Vino, Mendoza</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Reservá con anticipación</p>
+            <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
               <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
             </div>
           </div>
         </div>
-
 
         <hr id="linea">
 
-
-        <div class="row d-flex justify-content-around mx-2 px-5">
-          <div class="card col-12 col-md-6 text-center" style="width: 42rem;">
+        <div class="row d-flex justify-content-around px-5">
+          <div class="card col-12 col-6 text-center" style="width: 42rem;">
             <img src="../img/cataratas1.jpg" class="card-img-top mt-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Cataratas del Iguazú, Misiones</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Reservá con anticipación</p>
+              <h5 class="card-title">desde $ 20.623,20 por adulto</h5>
               <a href="#" class="btn btn-primary px-5" id="bo">Reservar</a>
             </div>
           </div>
-          <div class="card col-12 col-md-6" style="width: 42rem;">
+          <div class="card col-12 col-md-6 text-white" style="width: 42rem;" id="bg-card-0">
             <div class="card-body">
-              This is some text within a card body.
-            </div>
+              <h1 class="card-title">Cataratas del Iguazú. Visita a los lados argentino y brasileño en dos días</h1>
+              <div class="card-body">
+                No se complique la elección entre el lado argentino o el brasileño para ver las Cataratas del Iguazú. Esta excursión le permite experimentar los dos recorridos. En un grupo pequeño, su guía lo llevará a los mejores miradores de ambos lados, para que usted pueda experimentar el rugido de las cataratas y la serenidad de la selva que las rodea
+              </div>
           </div>
+
         </div>
+      </div>
 
           
-    <hr id="linea">
+        <hr id="linea">
 
-      <footer class="text-center text-white" id="color-fotter">  <!---------------inicio de footer------->
-        <div class="container p-4 pb-0"> 
-          <section class="mb-4"> 
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a> 
-            <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>    
-            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button" ><i class="fab fa-linkedin-in"></i>
-            </a>        
-            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button" ><i class="fab fa-github"></i >
-            </a>
-          </section>    
-        </div>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-         7D © 2020 Copyright 
-        </div> 
-      </footer> <!----------------------------------------------------fin de footer------->
+    <footer class="text-center text-white" id="color-fotter">  <!---------------inicio de footer------->
+      <div class="container pt-4 pb-0 "> 
+        <section class="mb-4"> 
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a> 
+          <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>    
+          <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button" ><i class="fab fa-linkedin-in"></i>
+          </a>        
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button" ><i class="fab fa-github"></i >
+          </a>
+        </section>    
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+       7D © 2020 Copyright 
+      </div> 
+    </footer> 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
