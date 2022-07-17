@@ -16,7 +16,7 @@
 }
 .sass03 h2 {
   font-size: xx-large;
-  color: rgb(36, 167, 243);
+  color: rgb(145, 198, 178);
 }
 
 #sass04 {
@@ -28,23 +28,23 @@
 
 /*-------------Uso de Anidacion y variables sass--------*/
 .sass00 {
-  background-color: rgb(36, 167, 243);
+  background-color: rgb(145, 198, 178);
   text-align: center;
 }
 .sass00 h1 {
   color: grey;
   margin: 0px;
 }
-.sass00 h3 {
+.sass00 h4 {
   color: grey;
 }
-.sass00 h2 {
+.sass00 h4 {
   color: grey;
 }
 
 /*---------------Uso de & dentro de anidacion + variables---------------*/
 .sass01 {
-  background-color: rgb(36, 167, 243);
+  background-color: rgb(145, 198, 178);
 }
 .sass01 .sass02 {
   font-size: 50px;
@@ -122,19 +122,17 @@
   color: beige;
 }
 
-.exp3-2 {
-  /*--------------------clase reciclada----------*/
-  background-color: rgb(126, 123, 123);
+.exp3-2 { /*--------------------clase reciclada----------*/
+  background-color: goldenrod;
   margin: 10px 0px 0px 20px;
   border-radius: 5px;
 }
 
 /*---------------------------uso de mixin-------------------*/
 .exp3--2 {
-  /*----muy feo el boton, se agregaron estilos para cumplir con la funcion mixin ------*/
-  background-color: rgb(126, 123, 123);
-  margin: 10px 0px 0px 20px;
+  background-color: goldenrod;
+  margin: 10px 0px 0px 5px;
   border-radius: 5px;
-  background-image: linear-gradient(to top, rgb(126, 123, 123), rgb(36, 167, 243), rgb(126, 123, 123));
-  border-color: rgb(126, 123, 123);
+  background-image: rgb(126, 123, 123);
+  border-color: goldenrod;
 }/*# sourceMappingURL=main.css.map */

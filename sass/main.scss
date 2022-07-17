@@ -15,7 +15,7 @@
 /*-------------Uso de variables sass-----------*/
 
 $colorBase00:  grey;
-$colorBase01: rgb(36, 167, 243);
+$colorBase01:rgb(145, 198, 178);
 
 
 .sass03 {
@@ -53,12 +53,12 @@ $colorBase01: rgb(36, 167, 243);
         margin: 0px;  
     }
 
-    h3 {
+    h4 {
         color: $colorBase00;
         
     }
 
-    h2{
+    h4{
         color: $colorBase00;
     }
     }
@@ -166,7 +166,7 @@ $valor: (
 
     .exp3-2  {  /*--------------------clase reciclada----------*/
         @extend .exp3  ;
-        background-color: rgb(126, 123, 123) ;
+        background-color:goldenrod;
         margin: 10px 0px 0px 20px;
         border-radius: 5px;
         
@@ -175,15 +175,15 @@ $valor: (
      /*---------------------------uso de mixin-------------------*/
 
      @mixin exp3-2 {
-        background-color: rgb(126, 123, 123) ;
-        margin: 10px 0px 0px 20px;
+        background-color:goldenrod  ;
+        margin: 10px 0px 0px 5px;
         border-radius: 5px;
      }
 
-     .exp3--2 {    /*----muy feo el boton, se agregaron estilos para cumplir con la funcion mixin ------*/
+     .exp3--2 {    
         @include exp3-2;
-        background-image: linear-gradient(to top, rgb(126, 123, 123), $colorBase01,  rgb(126, 123, 123));
-        border-color:  rgb(126, 123, 123);
+        background-image: rgb(126, 123, 123);
+        border-color:goldenrod ;
      }
                 
         

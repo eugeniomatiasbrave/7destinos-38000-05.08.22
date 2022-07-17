@@ -126,13 +126,20 @@
 /*------------------------------------------ PAGINA NOSOTROS ---------------------------*/
 
 .gradiente {
-    background-image: linear-gradient(to top, white, white, rgb(224, 187, 173), rgb(224, 187, 173));
+    background-color: rgb(115, 135, 118);
+    height: 200px;
 }
 
-.gradiente h1 {
-    font-size: 2.3rem;
-    padding: 0px 40px 0px 40px;   
+.gradiente-2 {
+    background-color: rgb(143, 165, 147);
+   
 }
+.gradiente h1 {
+    font-size: 4.3rem;
+    padding: 15px 40px 0px 40px;   
+}
+
+
 
 
 
