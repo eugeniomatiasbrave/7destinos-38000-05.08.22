@@ -7,65 +7,204 @@
 /*---------------------------------------------GENERAL-------------------------------*/
 
 #colorBase {
-    background-color: rgb(243, 241, 238);   
+    background-color: rgb(243, 241, 238);
+    font-family: 'Lato', sans-serif;   
 }
 
 .logo {
     height: 60px;
-    width: 63px;
-    margin-left: 60px;
+    width: 63px;   
 }
 
 #bo {
-    background-color: #025959;
-    border: none;
-      
+    background-color: #038C73;
+    border: none;    
 }
 
 #borde-nav-2 {
-    border-bottom: solid 1px black;
-    background-color :rgb(243, 241, 238);
-   
+    border-bottom: solid 1px black;  
 }
 
 #color-fotter {
  background-color: #025959;
 }
 
+#bg-oro {
+    background-color: rgb(226, 198, 28);
+    color: black;
+}
+
 /*------------------------------------------ PAGINA INDEX --------------------------*/
 
-.logo-ix {
-    height: 60px;
-    width: 63px;
-    margin-left: 84px;
-}
-
 #img-ix{
-    background-image: url("../img/fr8.jpg");
+    background-image: url("../img/FTR-9.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 0px;
-    height: 854px;
-     
+    padding-top: 0px;
+    height: 854px;    
 }
-
+#bo-ix {
+    background-color: #025959;
+    border: none;    
+}
 
 #borde-nav {
-    border-bottom: solid 2px white;
-    background-color: rgba(255, 255, 255, 0.47);  
+    border-bottom: solid 1px white;
+    padding-left: 20px; 
 }
 
+    .text-padre{
+        position: sticky;
+        left: 40px;
+        top: 365px;
+        height: 460px;
+        width: 660px;
+    }
+
+    .text-padre .text-ix  {  
+        font-size: 2.8rem;
+        color:  rgb(243, 241, 238);
+        font-weight: bold;
+        line-height: 1.2;
+        background-color: rgba(0, 0, 0, 0.219);
+        padding: 15px 15px 15px 30px;
+        margin-bottom: 23px;
+        border-radius: 15px;   
+    }
+    
+    .text-padre .btn-ix a {
+        background-color: rgba(243, 241, 238, 0.904) ;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        border-radius: 8px;
+        border: solid 1px ;
+        padding: 12px 28px 12px 28px;
+        margin: 5px 50px 50px 0px;
+        text-decoration: none;
+        color: rgb(12, 12, 12);      
+    }
+
+
+
+@media (max-width: 376px) {
+    .caja-ix {
+    background-color: #025959;
+    height: 280px;
+    }
+    #img-ix{
+        height: 220px;
+    }
+
+    .text-padre{
+        height: 420px;
+        margin-left: 10px;
+        padding-top: 5px;
+    
+    }
+    .text-padre .text-ix  {
+        position: sticky;
+        left: 10px;
+        top: 375px;
+        font-size: 1.7rem;
+        color:  rgb(243, 241, 238);
+        font-weight: bold;
+        line-height: 1.2;
+        width: 365px;
+        height: 175px;
+        background-color: rgba(0, 0, 0, 0.219);
+        padding-top: 5px;
+        padding-left: 10px;
+        margin-top: 5px;
+        border-radius: 15px;   
+    }
+    .btn-ix {
+        height: 340px;  
+    }
+    
+    .text-padre .btn-ix a {
+        position: sticky;
+        top: 565px;
+        background-color: rgba(243, 241, 238, 0.904) ;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        border-radius: 8px;
+        border: solid 1px ;
+        padding: 9px 25px 9px 25px;
+        margin: 5px 50px 50px 0px;
+        text-decoration: none;
+        color: rgb(12, 12, 12);
+           
+    }
+    
+    }
+
+
+    @media (max-width: 425px) and (min-width: 378px) {
+
+        .caja-ix {
+            background-color: #025959;
+            height: 420px;
+            }
+            #img-ix{
+                height: 240px;
+            }
+        
+            .text-padre{
+                height: 720px;
+                margin-left: 10px;
+                padding-top: 5px;
+            
+            }
+            .text-padre .text-ix  {
+                position: sticky;
+                left: 10px;
+                top: 375px;
+                font-size: 1.7rem;
+                color:  rgb(243, 241, 238);
+                font-weight: bold;
+                line-height: 1.2;
+                width: 365px;
+                height: 175px;
+                background-color: rgba(0, 0, 0, 0.219);
+                padding-top: 5px;
+                padding-left: 10px;
+                margin-top: 5px;
+                border-radius: 15px;   
+            }
+            .btn-ix {
+                height: 360px;  
+            }
+            
+            .text-padre .btn-ix a {
+                position: sticky;
+                top: 565px;
+                background-color: rgba(243, 241, 238, 0.904) ;
+                font-size: 14px;
+                font-family: 'Lato', sans-serif;
+                font-weight: bold;
+                border-radius: 8px;
+                border: solid 1px ;
+                padding: 9px 25px 9px 25px;
+                margin: 5px 50px 50px 0px;
+                text-decoration: none;
+                color: rgb(12, 12, 12);
+                   
+            }
+            
+            }
+        
 /*------------------------------------------ PAGINA 7DESTINOS --------------------------*/
 
 
 #linea {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #titu-exp {
     margin: 30px 0px 30px 0px;
-    
     background-color:rgb(115, 135, 118);
 }
 
@@ -128,6 +267,7 @@
 .gradiente {
     background-color: rgb(115, 135, 118);
     height: 200px;
+    font-family: 'Lato', sans-serif;
 }
 
 .gradiente-2 {
@@ -136,13 +276,30 @@
 }
 .gradiente h1 {
     font-size: 4.3rem;
-    padding: 15px 40px 0px 40px;   
 }
-
 
 
 
 
 /*------------------------------------------ PAGINA CONTACTO ---------------------------*/
 
+#co-map {
+    display: flex;
+    
+    align-items: flex-end;
+    height: 380px;
 
+}
+
+#pseudo-1:hover{ 
+    border-bottom: solid 7px rgb(115, 135, 118)  ;
+    border-radius: 7px;
+    
+}
+
+#pseudo-1{
+    color: black;
+    border-bottom: solid 1px rgb(115, 135, 118);
+    width: 330px;
+    
+}

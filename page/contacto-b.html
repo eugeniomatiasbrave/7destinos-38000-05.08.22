@@ -10,8 +10,10 @@
     <link rel="shortcut icon" href="../img/7d.jpg">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../sass/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>  
 </head>
 <body id="colorBase">
@@ -50,83 +52,192 @@
           </form>
        </div>
      </div>
-  </nav>
+  </nav> <!--fin menu de navegacion-->
   
   <section class="container-fluid py-5 text-center  mt-4 gradiente"> 
     <h1>CONTACTO</h1>
   </section>
-  <section class="container-fluid py-5 text-center gradiente-2"> 
-    <h1> </h1>
-    <p class="fs-4"></p>
+  
+  <section class="row justify-content-lg-around  pt-4 my-2 text-center mx-4" >
+    <div class="col-9 col-md-6 col-lg-3 py-3" id="pseudo-1"><a href="#ir-c1" style="text-decoration: none; color: black;" >
+      <h5> Contactate con nosotros</h5>
+       <p> O visitanos</p>
+      </a></div>
+     <div class="col-9 col-md-6 col-lg-3 py-3" id="pseudo-1"><a href="#ir-c2" style="text-decoration: none ; color: black;">
+      <h5>¿Tenes una pregunta?</h5>
+      <p> Escribinos aqui</p>
+    </a></div>
+     <div class="col-9 col-md-6 col-lg-3 py-3" id="pseudo-1"><a href="#ir-c3" style="text-decoration: none ; color: black;">
+      <h5> Preguntas frecuentes</h5>
+      <p>Tu pregunta es la de todos</p>
+    </a></div>
+    <div class="col-9 col-md-6 col-lg-3 py-3" id="pseudo-1"><a href="#ir-c4" style="text-decoration: none ; color: black;">
+       <h5>Recibe newsletter</h5>
+       <p>Suscribite</p>
+      </a></div>
   </section>
 
-  <div class="row d-flex">   
-    <div class="col-12 col-lg-6 justify-content-around mt-5">
-       <div class="sass03">  <!-----USO DE SASS - ANIDACION VALIABLES y &- para entrega-------->
-         <h2>Contacto</h2>
-       </div>
-      <section class="sass00"> 
-        <h1 class="pt-lg-5 pb-md-4">Contactanos a traves de:</h1> <!------------------optimizacion con h1-------->
-        <h4 class="pt-1">Email: 7destinos@gmail.com.ar</h4>
-        <h4 class="lh-base">O llamanos por WHATSAPP al<button class="exp3--2">11-1111-7777</button>Haciendo <!--------uso de @extend-------->
-        <a href="" class="exp3-2">click aqui</a></h4>
-        <div class="sass01 m-lg-1"  > 
-          <h2 class="sass02 pb-lg-3 pt-lg-5 " >FORMULARIO DE CONTACTO</h2> 
-        </div> 
-      </section>
-    </div>
-    <div class="col-12 col-lg-6 justify-content-around">
-      <div class="container-md mt-5" id="sass04"><!------------------(uso de clase en sass)-->
-       <form>   
-        <div class="row mb-4">
-          <div class="col-12 col-6">
-            <div class="form-outline">
-              <input type="text" id="form3Example1" class="form-control" />
-              <label class="form-label" for="form3Example1">Primer nombre</label>
+  
+
+     
+     <section class="row d-flex px-lg-5 my-lg-5" id="ir-c1">
+
+             <div class="col-12 col-lg-6 justify-content-around">
+              <div class="container-md"  >
+                    <div class="col-12">
+                         <div>
+                         <h4 class="m-0">Contactate con nosotros</h4> 
+                         </div>
+                         <div>
+                         <p class=" fs-1 m-0">O PODES VISITARNOS</h1> 
+                        </div>
+                    </div>
+                    <div class=""  id="co-map">
+                        <div class="col-6">
+                           <p class="m-0">NUESTRA DIRECCIÒN </p>
+                           <p class="m-0"> Habana 3399, Devoto</p>
+                           <p class="m-0">CABA, Argentina</p>
+                           <a  href="https://www.google.com.ar/maps/place/Habana+3399,+C1419GPY+CABA/@-34.593338,-58.5082895,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb6357e1ff2a9:0x9c03fe671f72f9bb!8m2!3d-34.593338!4d-58.5061008" class="m-0" >Como llegar, Google Mapas</a>
+                        </div>
+                        <div class="col-6">
+                          <p class="m-0">INFORMACIÓN</p>
+                          <p class="m-0">Lu a Vi de 09hs a 18hs</p>
+                          <p class="m-0"> Tel: 11-1111-7777</p>
+                          <p class="m-0">sietedestinos@Sieted.com.ar</p>
+                        </div>
+                     </div> 
+                   </div>              
+                </div>
+                   
+             <div class="col-12 col-lg-6 justify-content-around text-center">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.42797034853!2d-58.5082895!3d-34.593338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6357e1ff2a9%3A0x9c03fe671f72f9bb!2sHabana%203399%2C%20C1419GPY%20CABA!5e0!3m2!1ses-419!2sar!4v1658361043013!5m2!1ses-419!2sar" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div> 
+
+       </section>
+      
+
+        <hr id="linea">
+
+        <div class="row d-flex px-lg-5" id="ir-c2">   
+          <div class="col-12 col-lg-6 justify-content-around mt-5" id="ir-c4">
+            <section> 
+              <div > 
+                <h4 class="">¿Queres hacernos una pregunta?</h4> 
+              </div> 
+              <div > 
+                <h1>ESCRIBINOS AQUI</h1> 
+              </div> 
+            </section>
+          </div>
+      
+          <div class="col-12 col-lg-6 justify-content-around px-2">   <!-------------------------------formulario-->
+            <div class="container-md mt-5" id="sass04">
+             <form>   
+              <div class="row mb-3">
+                
+               <div class="form-outline">
+                <input type="text" id="form3Example1" class="form-control" />
+                <label class="form-label" for="form3Example1">Primer nombre</label>
+               </div> 
+               
+              <div class="form-outline">
+                <input type="text" id="form3Example2" class="form-control" />
+                <label class="form-label" for="form3Example2">Segundo nombre</label>
+              </div>
+             
+              <div class="form-outline">
+                <input type="email" id="form3Example3" class="form-control" />
+                <label class="form-label" for="form3Example3">Email</label>
+              </div>
+              <div class="form-outline">
+                <input type="password" id="form3Example4" class="form-control" />
+                <label class="form-label" for="form3Example4">Contraseña</label>
+              </div>
+              <div class="mb-2">
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Subí tus fotos y videos" rows="3"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label" >Escribir</label>
+              </div>
+              <div class="form-check d-flex justify-content-center mb-3" >
+                <input class="form-check-input me-2" type="checkbox" id="bo" value="" id="form2Example33" checked />
+                <label class="form-check-label" for="form2Example33"> ¿Queres recibir newsletter? </label>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-lg-6 mt-3 d-flex justify-content-around">  
+                   <button class="btn btn-primary btn-block mb-4 p-2 w-50" id="bo" type="submit">Enviar</button> 
+                </div>
+                <div class="col-12 col-lg-6 mt-3 d-flex justify-content-around"> 
+                   <input class="btn btn-primary btn-block mb-4 p-2 w-50 " id="bo" type="reset" value="Reset">
+                </div>
+               </div>
+              </form> 
             </div>
           </div>
-         <div class="col-12 col-6">
-            <div class="form-outline">
-              <input type="text" id="form3Example2" class="form-control" />
-              <label class="form-label" for="form3Example2">Segundo nombre</label>
-            </div>
-          </div>
         </div>
-        <div class="form-outline mb-4">
-          <input type="email" id="form3Example3" class="form-control" />
-          <label class="form-label" for="form3Example3">Email</label>
-        </div>
-        <div class="form-outline mb-4">
-          <input type="password" id="form3Example4" class="form-control" />
-          <label class="form-label" for="form3Example4">Contraseña</label>
-        </div>
-        <div class="form-check d-flex justify-content-center mb-4">
-          <input class="form-check-input me-2" type="checkbox" id="bo" value="" id="form2Example33" checked />
-          <label class="form-check-label" for="form2Example33"> ¿Queres recibir newsletter? </label>
-        </div>
-        <div class="row">
-          <div class="col-12 col-lg-6 mt-3 d-flex justify-content-around">  
-             <button class="btn btn-primary btn-block mb-4 p-2 w-50" id="bo" type="submit">Enviar</button> 
-          </div>
-          <div class="col-12 col-lg-6 mt-3 d-flex justify-content-around"> 
-             <input class="btn btn-primary btn-block mb-4 p-2 w-50 " id="bo" type="reset" value="Reset">
-          </div>
-         </div>
-        </form> 
       </div>
+
+      <hr id="linea">
+
+      <div class="row d-flex p-lg-5 my-lg-5" id="ir-c3"> 
+
+        <div class="col-12 col-lg-6 justify-content-around">
+          <section> 
+            <div > 
+              <h4 class="">Preguntas frecuentes</h4> 
+            </div> 
+            <div > 
+              <h1>TU PREGUNTA ES LA DE TODOS</h1> 
+            </div> 
+          </section>
+        </div>
+
+        <div class="col-12 col-lg-6 justify-content-around">
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed bg-light" type="button"  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                ¿Como cambio o canselo mi viaje?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Puede cambiar o cancelar el viaje por Internet. Así es como puede hacerlo: 1. Busque su viaje
+                Necesitará su código de confirmación de 6 caracteres (también llamado “Localizador de viajes 7d”).
+                Si no conoce su Localizador de registros, puede buscarlo en el correo electrónico de confirmación que recibió al reservar el viaje.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                ¿Con cuantos dias minimos de antelacion puedo cancelar la reserva?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Puede cancelar la reserva de viaje hasta 48 horas antes de su salida. Si se la accion es realizada luego se cancela sin reenvolso.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                ¿Que formas de pago podemos realizar?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Aceptamos la mayoría de tarjetas de crédito y débito, además de una variedad de otros métodos de pago. Si reserva a través de aa.com, solo puede utilizar una única tarjeta (si bien puede utilizar varias tarjetas regalo).</div>
+            </div>
+          </div>
+        </div>
+
+    </div> <!--columna-->
+
     </div>
-  </div><!-----FIN USO DE SASS - ANIDACION VALIABLES y &- para entrega----->
-    <div class="get-1">
-      <p class="get-2">Aplicando map get</p>
-    </div>
-    <div class="sass07">
-      <h3>ALERTA!! Usando MOBIL</h3> <!-------------uso de condicional sass----->
-    </div>
-    <div class="sass06">  <!------------------------------uso de operaciones en sasss---------->
-      <p >También nos podes contactar por las redes</p>
-    </div>
+
+
+        <hr id="linea">
+
+
     <footer class="text-center text-white" id="color-fotter">  
-      <div class="container p-4 pb-0"> 
+      <div class="container p-4 pb-0 "> 
           <section class="mb-4"> 
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button" id="borde--facebook"
               ><i class="fab fa-facebook-f"></i

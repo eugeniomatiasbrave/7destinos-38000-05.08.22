@@ -4,21 +4,7 @@
   box-sizing: border-box;
 }
 
-#colorBase {
-  font-family: "Roboto", sans-serif;
-}
-
 /*-------------Uso de variables sass-----------*/
-.sass03 {
-  background-color: grey;
-  margin-bottom: -10px;
-  text-align: center;
-}
-.sass03 h2 {
-  font-size: xx-large;
-  color: rgb(145, 198, 178);
-}
-
 #sass04 {
   border-top: grey;
 }
@@ -26,55 +12,6 @@
   color: grey;
 }
 
-/*-------------Uso de Anidacion y variables sass--------*/
-.sass00 {
-  background-color: rgb(145, 198, 178);
-  text-align: center;
-}
-.sass00 h1 {
-  color: grey;
-  margin: 0px;
-}
-.sass00 h4 {
-  color: grey;
-}
-.sass00 h4 {
-  color: grey;
-}
-
-/*---------------Uso de & dentro de anidacion + variables---------------*/
-.sass01 {
-  background-color: rgb(145, 198, 178);
-}
-.sass01 .sass02 {
-  font-size: 50px;
-  color: grey;
-}
-
-/*-------------------uso de operaciones----------------*/
-.sass06 {
-  background-color: grey;
-  width: 1324px;
-  height: 37px;
-}
-.sass06 p {
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-/*-------------------uso de condicionales----------------*/
-.sass07 h3 {
-  color: rgb(243, 241, 238);
-  background-color: rgb(243, 241, 238);
-}
-
-@media (max-width: 425px) {
-  .sass07 h3 {
-    color: black;
-    background-color: yellow;
-    text-align: center;
-  }
-}
 /*---------------------------uso de map-------------------*/
 #borde--twitter {
   border-color: rgb(109, 164, 237);
@@ -98,41 +35,4 @@
 
 #borde--github {
   border-color: rgb(79, 77, 79);
-}
-
-/*---------------------------uso de map get-------------------*/
-.get-1 {
-  background-color: rgb(178, 224, 239);
-}
-
-.get-2 {
-  text-align: center;
-  font-size: 35px;
-}
-
-/*---------------------------uso de @extend-------------------*/
-.exp3, .exp3-2 {
-  background-color: goldenrod;
-  font-size: 20px;
-  font-family: "Lato", sans-serif;
-  border-radius: 10px;
-  padding: 8px;
-  margin: 0px 50px 50px 230px;
-  text-decoration: none;
-  color: beige;
-}
-
-.exp3-2 { /*--------------------clase reciclada----------*/
-  background-color: goldenrod;
-  margin: 10px 0px 0px 20px;
-  border-radius: 5px;
-}
-
-/*---------------------------uso de mixin-------------------*/
-.exp3--2 {
-  background-color: goldenrod;
-  margin: 10px 0px 0px 5px;
-  border-radius: 5px;
-  background-image: rgb(126, 123, 123);
-  border-color: goldenrod;
 }/*# sourceMappingURL=main.css.map */
