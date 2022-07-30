@@ -4,13 +4,21 @@
     border: 0;
     box-sizing: border-box;
     vertical-align: baseline;
-
 }
 
-    img, picture, video, iframe, figure {
+img, picture, video, iframe, figure {
      max-width: 100%;
      width: 100%;
-}
+     object-fit: cover;
+     object-position: center;
+    }
+
+html {
+    scroll-behavior: smooth;
+    }
+ body {
+    line-height: 1.4em;
+ }   
 
 /*---------------------------------------------GENERAL-------------------------------*/
 
@@ -50,11 +58,6 @@
 .w-sap {
     width: 32px;
 }
-
-
-
-
-
 
 
 /*------------------------------------------ PAGINA 7DESTINOS --------------------------*/
@@ -142,7 +145,6 @@
 
 
 
-
 /*------------------------------------------ PAGINA CONTACTO ---------------------------*/
 
 #co-map {
@@ -168,25 +170,36 @@
 
 /*------------------------------------------ PAGINA INDEX --------------------------*/
 
+
+
 #img-ix{
     background-image: url("../img/FTR-9.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 0px;
-    height: 854px;    
+    height: 865px;    
 }
 
+#colorBase-ix{
+    background-color: #025959;
+} 
+
+.bg-nav {
+    background-color:  rgb(243, 241, 238);
+   
+}
 #borde-nav {
     border-bottom: solid 1px white;
     padding-left: 20px; 
 }
 
-    .text-padre{
+    div.text-padre{
         position: sticky;
         left: 40px;
         top: 365px;
         height: 460px;
         width: 630px;
+        display: inline-block;
     }
 
     .text-padre .text-ix  {  
@@ -213,24 +226,38 @@
         color: rgb(12, 12, 12);      
     }
 
+
+        
+
 /*--------------------------@MEDIA------------------*/
 
 @media screen and (max-width: 320px) {
+
+    #colorBase-ix{
+        background-color: #025959;
+    }
+
+    .bg-nav {
+        background-color:  rgb(243, 241, 238);
+       
+    }
+    
 
     #img-ix{
         background-image: url("../img/FTR-12.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         padding-top: 0px;
-        height: 400px;    
+            
     }
 
-    .text-padre{
+    div.text-padre{
         position: sticky;
         left: 20px;
-        top: 380px;
+        top: 165px;
         width: 280px;
-        padding-top: 10px;
+        padding-top: 60px;
+        display: inline-block;
     }
 
     .text-padre .text-ix  {  
@@ -239,8 +266,8 @@
         font-weight: bold;
         line-height: 1.2;
         background-color: rgba(0, 0, 0, 0.219);
-        padding: 10px 10px 10px 10px;
-        margin-bottom: 10px;
+        padding: 8px 8px 8px 15px;
+        margin-bottom: 15px;
         border-radius: 15px;   
     }
     
@@ -259,38 +286,48 @@
 
     .caja-ix {
         background-color: #025959;
-        height: 155px;
+      
         }
     
     }
 
 
-@media screen and (max-width: 425px) and (min-width: 378px) {
+@media screen and (min-width: 321px) and (max-width: 426px)  {
 
-    .caja-ix {
+    #colorBase-ix{
         background-color: #025959;
-        height: 420px;
-            }
+    }
 
     #img-ix{
-        height: 240px;
-            }
-        
-    .text-padre{
+        background-image: url("../img/FTR-12.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 0px;
+            
+    }
+
+    .bg-nav {
+        background-color:  rgb(243, 241, 238);   
+    }
+
+    div.text-padre{
         position: sticky;
-        left: 40px;
-        top: 365px;
-        width: 660px;
+        left: 20px;
+        top: 210px;
+        width: 319px;
+        height: 370px;
+        padding-top: 50px;
+        display: inline-block;
     }
 
     .text-padre .text-ix  {  
-        font-size: 2.8rem;
+        font-size: 1.5rem;
         color:  rgb(243, 241, 238);
         font-weight: bold;
         line-height: 1.2;
         background-color: rgba(0, 0, 0, 0.219);
-        padding: 15px 15px 15px 30px;
-        margin-bottom: 23px;
+        padding: 8px 8px 8px 15px;
+        margin-bottom: 15px;
         border-radius: 15px;   
     }
     
@@ -305,34 +342,49 @@
         margin: 5px 50px 50px 0px;
         text-decoration: none;
         color: rgb(12, 12, 12);      
-        } }
+    }
 
-@media screen and (max-width: 426px) and (min-width: 768px) {
-                 
     .caja-ix {
         background-color: #025959;
-        height: 420px;
-                        }
-            
+        }
+    
+    }
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+         
+    
+
+    #colorBase-ix{
+        background-color: #025959;
+    }
+
     #img-ix{
-        height: 240px;
-                        }
-                    
-    .text-padre{
-        position: sticky;
-        left: 40px;
-        top: 365px;
-       
-        width: 660px;
-                }
+        background-image: url("../img/FTR-13.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 0px;     
+    }
+
+    .bg-nav {
+        background-color:  rgb(243, 241, 238);  }
+                                       
+div.text-padre{
+            position: sticky;
+            left: 20px;
+            top: 250px;
+            width: 425px;
+            height: 630px;
+            padding-top: 50px;
+            display: inline-block;
+        }
             
     .text-padre .text-ix  {  
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         color:  rgb(243, 241, 238);
         font-weight: bold;
         line-height: 1.2;
         background-color: rgba(0, 0, 0, 0.219);
-        padding: 15px 15px 15px 30px;
+        padding: 15px 15px 15px 15px;
         margin-bottom: 23px;
         border-radius: 15px;   
                 }
@@ -349,4 +401,9 @@
         text-decoration: none;
         color: rgb(12, 12, 12);      
                 }
+
+    .caja-ix {
+        background-color: #025959;
+       
+                    }
                  } 
