@@ -177,7 +177,7 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 0px;
-    height: 865px;    
+    height: 854px;    
 }
 
 #colorBase-ix{
@@ -197,8 +197,8 @@ html {
         position: sticky;
         left: 40px;
         top: 365px;
+        width: 600px;
         height: 460px;
-        width: 630px;
         display: inline-block;
     }
 
@@ -230,6 +230,14 @@ html {
         
 
 /*--------------------------@MEDIA------------------*/
+
+@media screen and (max-width: 768px) {
+    .caja-ix {
+        background-color: #025959;
+      
+        }
+}
+
 
 @media screen and (max-width: 320px) {
 
@@ -284,10 +292,7 @@ html {
         color: rgb(12, 12, 12);      
     }
 
-    .caja-ix {
-        background-color: #025959;
-      
-        }
+   
     
     }
 
@@ -344,9 +349,7 @@ html {
         color: rgb(12, 12, 12);      
     }
 
-    .caja-ix {
-        background-color: #025959;
-        }
+   
     
     }
 
@@ -402,8 +405,5 @@ div.text-padre{
         color: rgb(12, 12, 12);      
                 }
 
-    .caja-ix {
-        background-color: #025959;
-       
-                    }
+
                  } 
