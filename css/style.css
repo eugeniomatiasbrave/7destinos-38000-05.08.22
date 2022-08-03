@@ -27,6 +27,19 @@ html {
     font-family: 'Lato', sans-serif;   
 }
 
+#colorseccion{
+    background-color:  rgb(221, 213, 245);
+}
+
+#colorseccion-2{
+    background-color: rgb(229, 224, 246);
+
+}
+
+.colortext{
+    color: #023333;
+}
+
 .logo {
     height: 60px;
     width: 63px;   
@@ -34,7 +47,14 @@ html {
 
 #bo {
     background-color: #038C73;
-    border: none;    
+    border: none; 
+    padding: 7px 5px 7px 5px;   
+}
+
+#bo-2 {
+    background-color: #038C73;
+    border: none; 
+    padding: 0px 0px 0px 0px;   
 }
 
 #borde-nav-2 {
@@ -71,7 +91,7 @@ html {
 #titu-des  {
     margin: 0px 0px 30px 0px; 
     color: #023333; 
-    background-color: rgb(225, 222, 222);  
+    background-color:rgb(221, 213, 245);  
 }
 
 #titu-des h1 {
@@ -119,7 +139,7 @@ html {
 }
 
 #bg-b{
-    background-color: #cdd2d1;
+    background-color: rgb(221, 213, 245);
 }
 
 #fecha1 {
@@ -142,6 +162,16 @@ html {
 
 /*------------------------------------------ PAGINA EXPERIENCIAS -----------------------*/
 
+#titu-exp{
+    color: #023333; 
+    background-color:rgb(221, 213, 245);  
+}
+
+#titu-exp h3 {
+    padding: 0px 0px 25px 0px;
+}
+
+
 #exp-galeria {
     margin: 30px 0px 40px 0px;
 }
@@ -159,20 +189,24 @@ html {
 }
 
 #m {
-    margin: 20px 0px 20px 0px;
+    margin: 40px 0px 0px 0px;
+    color: #023333;
 }
 
 #m-1 {
-    margin: 20px 0px 10px 0px;
+    font-size: 2.9rem;
+    margin: 0px 0px 0px 0px; 
 }
 
 .exp3 a {
+    display: inline-block;
+    width: 160px;
     background-color: goldenrod;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     border-radius: 10px;
-    padding: 8px;
-    margin: 0px 50px 50px 230px;
+    padding: 7px 0px 7px 0px;
+    margin: 0px 10px 10px 90px;
     text-decoration: none;
     color: beige;
 }
@@ -183,19 +217,9 @@ html {
 
 /*------------------------------------------ PAGINA NOSOTROS ---------------------------*/
 
-.gradiente {
-    background-color: rgb(115, 135, 118);
-    height: 200px;
-    font-family: 'Lato', sans-serif;
-}
 
-.gradiente-2 {
-    background-color: rgb(143, 165, 147);
-   
-}
-.gradiente h1 {
-    font-size: 4.3rem;
-}
+
+
 
 
 /*------------------------------------------ PAGINA CONTACTO ---------------------------*/
